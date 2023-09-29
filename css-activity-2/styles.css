@@ -1,0 +1,36 @@
+#blue {
+    color: blue;
+    font-size: 36px;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#big-font { 
+    font-size: 24px;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#four {
+    font-size: 24px;
+    background-color: limegreen;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odd-number {
+    background-color: #FFCCCC;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.new-border{
+    border-style: dotted;
+    border-width: 3px;
+}
+.old-border{
+    border-style: dotted;
+    border-color: orange;
+    border-width: 3px;
+}
+
+.cool-font{
+    font-size: 26px;
+    font-family: Akronim, sans-serif;
+    border-color: darkred;
+}
