@@ -1,0 +1,74 @@
+body, h1, h3, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Trirong', sans-serif; 
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lightblue; 
+    color: #333;
+    line-height: 1.6;
+}
+
+body {
+    background-color: lightblue !important;
+}
+
+
+
+.carousel {
+    width: 70%; 
+    margin: 0 auto; 
+    max-height: 500px; 
+}
+
+.carousel img {
+    object-fit: cover; 
+    max-height: 500px; 
+}
+
+.carousel-indicators button {
+    width: 30px; 
+    height: 5px; 
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    color: white;
+}
+
+
+.recipes {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
+    padding: 20px; 
+    margin: 20px 0; 
+    background-color: lightblue;; 
+    border-radius: 5px; 
+}
+
+
+.recipes li {
+    padding: 10px 0; 
+    border-bottom: 1px dashed #ccc; 
+    font-size: 18px; 
+}
+
+
+
+h1 {
+    background-color: #00A6FB;  
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px dashed #0056b3; 
+    border-bottom: 2px dashed #0056b3; 
+    border-left: none;
+    border-right: none;
+}
+
+
