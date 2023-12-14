@@ -31,10 +31,11 @@ body, html {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    padding: 20px;
 }
 
 .dealer-section, .player-section {
-    flex-basis: 45%;
+    flex-basis: 100%;
     text-align: center;
     border: 2px solid black;
 }
@@ -45,7 +46,7 @@ body, html {
     margin: 20px 0;
 }
 
-.card {
+/*.card {
     width: 140px;
     height: 200px;
     background-color: #fff;
@@ -57,7 +58,7 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-
+.
 .card {
     width: 140px;
     height: 200px;
@@ -66,7 +67,23 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     background-size: cover; 
     background-position: center; 
+}*/
+
+
+.card {
+    width: 140px;
+    height: 200px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-size: cover; 
+    background-position: center; 
 }
+
 
 
 .score {
@@ -114,4 +131,23 @@ h1, h2 {
     flex-basis: auto;
     width: 80%;
 }
+
+.scores-box {
+    display: flex;
+    width: 1000px;
+    height: 40px;
+    border: 5px whitesmoke;
+}
+/*.card {
+    width: 80px; 
+    height: 120px; 
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+}*/
 

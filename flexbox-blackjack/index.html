@@ -1,61 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Blackjack Game</title>
-      <link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
-      <header class="game-header">
-         <h1>Paul's Blackjack Game</h1>
-      </header>
-      <main class="game-container">
-         <section class="dealer-section">
-            <h2>Dealer</h2>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ethan's Excellent Black Jack</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="game-header">
+        Pauls Blackjack Game!
+    </div>
+
+    <div class="game-container">
+        <div class="player-section">
+            <h2>PLAYER</h2>
             <div class="card-container">
-               <div class="card">
-                  <!-- <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3238434/playing-card-4-04-four-of-hearts-icon-md.png" height="200" width="200" alt="Card Description"> -->
-               </div>
-               <div class="card">
-                  <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Playing_card_spade_8.svg/200px-Playing_card_spade_8.svg.png?20070326035436" height="200" width="200" alt="Card Description"> -->
-               </div>
-               <div class="card">
-                  <!-- <img src="https://i.ebayimg.com/images/g/MjgAAOSw2OliE9eG/s-l1200.webp" height="200" width="200" alt="Card Description"> -->
-               </div>
-               <div class="card">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Playing_card_spade_8.svg/200px-Playing_card_spade_8.svg.png?20070326035436" height="200" width="200" alt="Card Description">
-               </div>
+                <div class="card">
+                    <img id="pcard1" src="images/blank.svg" alt="Player Card 1">
+                </div>
+                <div class="card">
+                    <img id="pcard2" src="images/blank.svg" alt="Player Card 2">
+                </div>
+                <div class="card">
+                    <img id="pcard3" src="images/blank.svg" alt="Player Card 3">
+                </div>
+                <div class="card">
+                    <img id="pcard4" src="images/blank.svg" alt="Player Card 4">
+                </div>
             </div>
-            <div class="score">Score: <span class="dealer-score">12</span></div>
-            <div class="message-area">CPU</div>
-         </section>
-         <div class="action-container">
-            <button class="action-btn">Hit</button>
-            <button class="action-btn">Stand</button>
-         </div>
-         <section class="player-section">
-            <h2>Player</h2>
+            <!-- <p class="score" id="playerScore">
+                # Score: 0
+            </p> -->
+        </div>
+
+        <div class="dealer-section">
+            <h2>DEALER</h2>
             <div class="card-container">
-               <div class="card">
-                  <img src="https://static.wikia.nocookie.net/aliceinborderland/images/d/de/Seven_of_Hearts.png/revision/latest?cb=20221106040817" height="200" width="200" alt="Card Description">
-               </div>
-               <div class="card">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/English_pattern_4_of_spades.svg/1365px-English_pattern_4_of_spades.svg.png" height="200" width="200" alt="Card Description">
-               </div>
-               <div class="card">
-                  <img src="https://i.ebayimg.com/images/g/MjgAAOSw2OliE9eG/s-l1200.webp" height="200" width="200" alt="Card Description">
-               </div>
-               <div class="card">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Playing_card_spade_8.svg/200px-Playing_card_spade_8.svg.png?20070326035436" height="200" width="200" alt="Card Description">
-               </div>
+                <div class="card">
+                    <img id="dcard1" src="images/blank.svg" alt="Dealer Card 1">
+                </div>
+                <div class="card">
+                    <img id="dcard2" src="images/blank.svg" alt="Dealer Card 2">
+                </div>
+                <div class="card">
+                    <img id="dcard3" src="images/blank.svg" alt="Dealer Card 3">
+                </div>
+                <div class="card">
+                    <img id="dcard4" src="images/blank.svg" alt="Dealer Card 4">
+                </div>
             </div>
-            <div class="score">Score: <span class="player-score">13</span></div>
-            <div class="message-area">Player 1</div>
-         </section>
-      </main>
-      <div class="hotline">
-         <h2>GAMBLING ADDICTION HOTLINE: 1-800-662-4357</h2>
-      </div>
-   </body>
+            <!-- <p class="score" id="dealerScore">
+                # Score: 0
+            </p> -->
+        </div>
+    </div>
+
+<p class="score" id="playerScore">
+                # Score: 0
+            </p>
+<p class="score" id="dealerScore">
+                # Score: 0
+            </p>
+
+<!--     <div class="scores-box">
+        <div class="PS1">
+        <p class="score" id="playerScore">
+            # Score: X
+        </p>
+        <div class="DS1">
+            <p class="score" id="dealerScore">
+            # Score: X
+        </p>
+        </div>
+    </div> -->
+
+
+
+    <p class="info-box" id="info-box">Press 'Reset' to start the game</p>
+
+    <div class="action-container">
+        <button class="action-btn" id="hit" onclick="hit()" >Hit</button>
+        <button class="action-btn" id="stand" onclick="stand()" >Stand</button>
+        <button class="action-btn" id="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
