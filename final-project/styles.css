@@ -1,0 +1,15 @@
+
+/*.job-container,
+.info-container,
+.title,
+.location,
+.web,
+.info,
+.img-container {
+    border: 3px solid black; */
+}
+
+
+.info-container {
+    border: 3px solid black; 
+}

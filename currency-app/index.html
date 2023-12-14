@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div id="flex-container">
+        USD: <input type="text" id="usdInput" placeholder="Enter amount in USD"><br>
+        <select id="currencies">
+        <option value="">moneymoneymoney</option>
+        <option value="eur">Euro: (EUR) </option>
+        <option value="gbp">British Pound (GBP) </option>
+        <option value="cad">Canadian Dollar (CAD) </option>
+        <option value="chf">Swiss Franc (CHF)</option>
+        <option value="jpy">Japanese Yen (JPY) </option>
+    </select>
+        <button onclick="convert()">Submit</button>
+        <div id="converted-result"></div>
+
+       <!--  <div id="usdDisplay">Amount in USD: </div>
+        <div id="eur">Converted to EUR: </div>
+        <div id="gbp">Converted to GBP: </div>
+        <div id="cad">Converted to CAD: </div>
+        <div id="chf">Converted to CHF: </div>
+        <div id="jpy">Converted to JPY: </div> -->
+    </div>
+
+    </body>
+
+    <script src="script.js"></script>
+</body>
+</html>

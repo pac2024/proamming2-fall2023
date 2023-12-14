@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majors & Minors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FWP Courses</h1>
+        <p>At Francis W Parker, you can choose from a vast selection of courses!</p>
+    </header>
+
+    <main>
+        <section class="classes">
+            <h2>Courses</h2>
+            <ul>
+    <li>English <div class="classes">English course.</div></li>
+    <li>Math <div class="classes">Math course.</div></li>
+    <li>Science <div class="classes">Science course.</div></li>
+    <li>History <div class="classes">History course.</div></li>
+    <li>French <div class="classes">French course.</div></li>
+            </ul>
+  
+        </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 FRANCIS W PARKER. All rights reserved.</p>
+    </footer>
+
+    <script>document.addEventListener('DOMContentLoaded', function() {
+    let listItems = document.querySelectorAll('.description li');
+
+    listItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+    });
+});
+
+</script>
+
+</body>
+</html>
