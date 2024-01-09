@@ -1,0 +1,153 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Oswald, Besley, serif;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Times New Roman;
+}
+
+.header {
+  font-family: Oswald;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+/*  border-bottom: 1px solid #ddd;*/
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.links {
+  color: limegreen;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1; 
+  margin: 10px;
+}
+
+.logo {
+  color: limegreen;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 10px; 
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 15px; 
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: limegreen;
+  color: white;
+  padding: 8px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: limegreen;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.profile-image {
+  background: limegreen;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+}
+
+.carousel {
+    width: 100%; 
+    margin: 0 auto; 
+    max-height: 960px; 
+}
+
+
+
+.carousel img {
+    object-fit: cover; 
+    max-height: 960px; 
+}
+
+.carousel-indicators button {
+    width: 30px; 
+    height: 5px; 
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    color: white;
+}
+
+.glance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: black;
+}
+
+.glance-container {
+  display: flex;
+/*  justify-content: space-between; 
+  align-items: center;*/
+  width: 900px; 
+  color: white;
+
+}
+
+.glance1,
+.glance2,
+.glance3 {
+  display: flex;
+
+}
+
+.glance1 {
+  display: flex;
+  height: 250px;
+  width: 200px;
+  text-align: right;
+/*  border: 2px solid limegreen;*/
+
+}
+
+.glance2{
+  display: flex;
+  height: 250px;
+  width: 800px;
+/*  border: 2px solid red;*/
+}
+
+.glancetext {
+  line-height: 2;
+}
+
+
+
+
+
+
+/*Questions:
+How to make carousel automatic
+Images loading slowly*/

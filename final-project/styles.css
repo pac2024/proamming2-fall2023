@@ -1,15 +1,32 @@
-
-/*.job-container,
-.info-container,
-.title,
-.location,
-.web,
-.info,
-.img-container {
-    border: 3px solid black; */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
+.job-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  height: 200px;
+  width: 400px;
+
+}
 
 .info-container {
-    border: 3px solid black; 
+  display: flex;
+  flex-direction: column;
 }
+
+.title, .location, .web, .info {
+  margin-bottom: 10px;
+}
+
+.img-container {
+  width: 200px; 
+  height: px; 
+  background-color: black; 
+}
+
+
