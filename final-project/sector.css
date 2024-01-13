@@ -54,6 +54,16 @@ ul {
   list-style-type: none;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Times New Roman;
+  /*position: absolute;
+  bottom: 0px;*/
+}
+
 .profile-image {
   background: limegreen;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -63,77 +73,57 @@ ul {
   margin: 5px;
 }
 
+.img h5 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 5em;
+  font-family: Times New Roman;
+}
 
-.job-container {
+.glance {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 20px;
-  border: 1px solid #ccc;
-  height: 200px;
-  width: 400px;
-
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.title, .location, .web, .info {
-  margin-bottom: 10px;
-}
-
-.job-container-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.title-header, .header-info {
-  margin-bottom: 10px;
-}
-
-.info-container {
-  display: flex;
-  flex-direction: column;
   width: 100%;
-  padding: 20px;
-  border: 1px solid #ccc;
-  margin-bottom: 20px;
+  height: 185px;
+  background: black;
 }
 
-.img-container {
-  width: 200px; 
-  height: 200px; 
-  background-color: black; 
-}
-
-.title-header{
+.glance-container {
   display: flex;
-  height: 300px;
-  background-color: black;
-  justify-content: center;
+  justify-content: space-between; 
   align-items: center;
-  padding: 20px;
-}
-
-.title-container{
-  color: white;
-  display: flex;
-  justify-content: center;
+  width: 900px; 
 
 }
 
 
+button:hover {
+  background: darkgreen;
+}
+
+.carousel {
+    width: 100%; 
+    margin: 0 auto; 
+    max-height: 840px; 
+}
 
 
+
+.carousel img {
+    object-fit: cover; 
+    max-height: 960px; 
+}
+
+.carousel-indicators button {
+    width: 30px; 
+    height: 5px; 
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    color: white;
+}
