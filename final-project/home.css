@@ -35,7 +35,7 @@ body {
     cursor: pointer;
 }
 
-button:hover {
+.header button:hover {
   background: darkgreen;
 }
 
@@ -57,7 +57,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   background: black;
-/*  border-bottom: 1px solid #ddd;*/
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
@@ -102,7 +101,6 @@ ul {
 
 .profile-image {
   background: limegreen;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -143,8 +141,6 @@ ul {
 
 .glance-container {
   display: flex;
-/*  justify-content: space-between; 
-  align-items: center;*/
   width: 900px; 
   color: white;
 
@@ -162,7 +158,6 @@ ul {
   height: 250px;
   width: 200px;
   text-align: right;
-/*  border: 2px solid limegreen;*/
 
 }
 
@@ -170,7 +165,6 @@ ul {
   display: flex;
   height: 250px;
   width: 800px;
-/*  border: 2px solid red;*/
 }
 
 .glancetext {
@@ -178,10 +172,3 @@ ul {
 }
 
 
-
-
-
-
-/*Questions:
-How to make carousel automatic
-Images loading slowly*/
