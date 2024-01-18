@@ -11,8 +11,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background: black;
-/*  border-bottom: 1px solid #ddd;*/
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
 .links {
@@ -60,13 +58,10 @@ ul {
   align-items: center;
   text-align: center;
   font-family: Times New Roman;
-  /*position: absolute;
-  bottom: 0px;*/
 }
 
 .profile-image {
   background: limegreen;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -103,27 +98,4 @@ ul {
 
 button:hover {
   background: darkgreen;
-}
-
-.carousel {
-    width: 100%; 
-    margin: 0 auto; 
-    max-height: 840px; 
-}
-
-
-
-.carousel img {
-    object-fit: cover; 
-    max-height: 960px; 
-}
-
-.carousel-indicators button {
-    width: 30px; 
-    height: 5px; 
-}
-
-.carousel-caption h5, 
-.carousel-caption p {
-    color: white;
 }

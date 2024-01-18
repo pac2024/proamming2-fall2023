@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   background: black;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
 }
 
 .links {
@@ -49,7 +48,6 @@ ul {
 
 .profile-image {
   background: limegreen;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -91,7 +89,7 @@ ul {
   align-items: flex-start;
   height: 400px;
   width: 100%;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
   max-width: 800px;
 }
 
@@ -108,7 +106,7 @@ ul {
 }
 
 .photo-box {
-  background-color: #f8f9fa;
+  background-color: white;
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -136,6 +134,8 @@ ul {
   display: flex;
   align-items: center;
   text-align: left;
+  max-width: 260px;
+  font-size: 1em;
 
 }
 

@@ -8,6 +8,40 @@ body {
   font-family: Oswald, Besley, serif;
 }
 
+#contact-popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10; 
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-content button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    background: limegreen;
+    color: white;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+
+
+
 
 
 .footer{
